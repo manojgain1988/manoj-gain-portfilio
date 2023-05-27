@@ -1,0 +1,90 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+
+}
+ h2{
+    font-size: 40px;
+    text-decoration: underline; 
+}
+
+.text-white{
+    color: white;
+}
+section{
+    display: flex;
+    padding: 5%;
+ 
+}
+.half-width{
+    width: 70%;
+}
+.half-width p{
+    width: 70%;
+    padding: 10px;
+    color: #777;
+    margin-left:-90px;
+
+}
+img{
+    width: 60%;
+    border-radius: 40px;
+}
+.link{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-image:linear-gradient(blue,purple);
+    color: aliceblue;
+    font-weight: 600;
+     
+}
+.header{
+    background-image:url(asset/wave.svg) ;
+    background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+
+}
+
+.specialize h2{
+    text-align:center;
+    padding: 0 50px;
+ }
+
+.specialize p{
+   text-align:center;
+   padding: 0 50px;
+   color: #777;
+}
+
+.parent{
+    display: flex;
+    padding: 0 20px;
+}
+.child{
+    box-shadow: 10px 5px 40px black;
+    margin: 2%;
+    padding: 30px;
+    border-radius: 0 15px 60px 0;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan)0 100%;
+    
+}
+.child p{
+   color: #777;
+   line-height: 25px;
+}
+
+Fotter{
+    text-align: center;
+    height: 10px;
+    width: 80%;
+    background-color: black;
+    font-size: larger;
+ 
+}
